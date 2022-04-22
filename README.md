@@ -8,6 +8,6 @@ BLOCKINGMODE=IP`
 `nano /etc/lighttpd/lighttpd.conf`
 Change the thing with 404 from `index.php` to `block.html`
 
-/etc/init.d/lighttpd restart
+`/etc/init.d/lighttpd restart`
 
-Put the block.html here: /var/www/html/pihole/
+Put the block.html here: `/var/www/html/pihole/`
