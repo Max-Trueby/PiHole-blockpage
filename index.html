@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pi-Hole</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/0/00/Pi-hole_Logo.png">
+    <meta name="theme-color" content="#B41B0D">
+    <link rel="stylesheet" href="css/bsod.css">
+</head>
+
+<body>
+
+
+    <main>
+        <header>
+            <h1 class="emotion" id="emotion">:(</h1>
+        </header>
+        <a class="description">Where are you going?<br>This website was blocked by Pi-Hole!<p><span id="progress">0</span>% complete</p></a>
+        <table>
+            <tr>
+                <td>
+                    <div id="qrcode" style="cursor: pointer; padding: 16px; width: 110px; height: 110px; background: #fff; display: inline-block" onclick="window.location.href = 'http://pihole/admin/groups-domains.php';"></div>
+                </td>
+                <td style="position: absolute; margin-top: -23px;">
+                    <p style="margin-left: 8px"><small><br><a id="domain" style="text-decoration:none; color: #FFF" ></a><br><a> If you believe this is an error, please contact your network administrator.</a></small></p>
+                    <p style="margin-left: 8px"><small>If you'd like to know more, you can<span><a style="text-decoration:none; color: #FFF" href="https://de.wikipedia.org/wiki/Pi-hole"> read this article.</a></span></small></p>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+</body>
+
+<script src="js/qrcode.js"></script>
+
+<script src="js/bsod.js"></script>
+
+</html>
